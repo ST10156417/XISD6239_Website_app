@@ -1,0 +1,56 @@
+name: sokeconsulting
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version information for your app
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.3 <4.0.0'
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  salomon_bottom_bar: ^3.3.2
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  shared_preferences: ^2.3.2
+  table_calendar: ^3.0.6
+  url_launcher: ^6.0.20
+  google_sign_in: ^6.2.1
+
+  
+
+  # Cupertino icons for iOS style icons
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Includes Material Icons font
+  uses-material-design: true
+
+  # Add assets to your application if needed
+  assets:
+    - assets/images/
+    - assets/images/stocks/
+    - assets/svg/
+
+  # Add custom fonts if needed
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf

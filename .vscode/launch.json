@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sokeconsulting",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",  // Path to your main Dart file
+            "flutterMode": "debug",
+            "deviceId": "chrome"         // Run on Chrome
+        },
+        {
+            "name": "sokeconsulting (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",  // Path to your main Dart file
+            "flutterMode": "profile",
+            "deviceId": "chrome"         // Run on Chrome
+        },
+        {
+            "name": "sokeconsulting (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",  // Path to your main Dart file
+            "flutterMode": "release",
+            "deviceId": "chrome"         // Run on Chrome
+        }
+    ]
+}

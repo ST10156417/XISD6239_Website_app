@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "583342312480",
+    "project_id": "sokeconsulting",
+    "storage_bucket": "sokeconsulting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583342312480:android:16ada389f013a63ce74045",
+        "android_client_info": {
+          "package_name": "com.example.sokeconsulting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5KDSt_URsVOhGilaiQzhDQIdpbxiqkqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
